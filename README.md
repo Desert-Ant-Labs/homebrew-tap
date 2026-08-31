@@ -9,6 +9,10 @@ brew install --cask clipper
 
 `brew upgrade --cask clipper` moves to the newest release after that.
 
+Homebrew 6 asks you to approve a tap it does not know before installing from
+it. Answering the prompt covers that one cask, and `brew trust
+desert-ant-labs/tap` covers everything here, now and later.
+
 ## What is here
 
 | cask | what it is |
