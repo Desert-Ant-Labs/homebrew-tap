@@ -1,6 +1,6 @@
 cask "clipper" do
-  version "1.0.1"
-  sha256 "8c8597bcc0c2609fcdc23ca13aeb452e307ac525be7cb24b28017d4fe48d6274"
+  version "1.0.2"
+  sha256 "090f38487330bfebfdad8cbf0a6440623d30bf5cf9794ff5c534efd5d959f7e4"
 
   url "https://github.com/Desert-Ant-Labs/demo-clipper/releases/download/v#{version}/Clipper-#{version}.dmg",
       verified: "github.com/Desert-Ant-Labs/demo-clipper/"
