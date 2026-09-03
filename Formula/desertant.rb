@@ -12,18 +12,18 @@ class Desertant < Formula
   on_macos do
     on_arm do
       url "#{base}/desertant-darwin-arm64.tar.gz"
-      sha256 "413c62f7dfda44ae57146428dd18f17743015b54bd33c009054028b58e2fe8a1"
+      sha256 "1c6f3e9220ff76cc53d998c706c3e26630986a0bde30fbaf1f348f3728de31fb"
     end
   end
 
   on_linux do
     on_arm do
       url "#{base}/desertant-linux-arm64.tar.gz"
-      sha256 "72bd9c0d498602f65bf1f420caa4ee5904e0bfbe153fbe88179d49171e72f6a8"
+      sha256 "a8cce8ccf78a0081579612cb09d888dcbaa6abc29cbfb29908e7e5b1e87d8581"
     end
     on_intel do
       url "#{base}/desertant-linux-x86_64.tar.gz"
-      sha256 "59ff2bf186a1deeabcb77d95d2b9da283a2b65f6cf682220924a2f46f4d07ef4"
+      sha256 "3e77baede44579145d215b8152027073a7b7bad7a3ff0ef7b6303da0e4997946"
     end
   end
 
