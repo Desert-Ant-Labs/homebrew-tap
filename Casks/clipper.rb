@@ -2,8 +2,7 @@ cask "clipper" do
   version "1.0.6"
   sha256 "a02dc9c5c957ec4c955f3b48bf347d21e5b688191d3a0abf8e71204297732fb5"
 
-  url "https://github.com/Desert-Ant-Labs/demo-clipper/releases/download/v#{version}/Clipper-#{version}.dmg",
-      verified: "github.com/Desert-Ant-Labs/demo-clipper/"
+  url "https://github.com/Desert-Ant-Labs/demo-clipper/releases/download/v#{version}/Clipper-#{version}.dmg"
   name "Clipper"
   desc "Generates short clips from a video podcast or meeting recording, on device"
   homepage "https://github.com/Desert-Ant-Labs/demo-clipper"
@@ -13,8 +12,8 @@ cask "clipper" do
     strategy :github_latest
   end
 
-  depends_on macos: :tahoe
   depends_on arch: :arm64
+  depends_on macos: :tahoe
 
   app "Clipper.app"
 
