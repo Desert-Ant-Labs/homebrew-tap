@@ -1,10 +1,10 @@
 cask "redactor" do
-  version "1.0.0"
-  sha256 "69e7ef0055682439108bbd9c4950671e598bbe601b060fb938df0f38c0f0613e"
+  version "1.0.1"
+  sha256 "fba0883da6ae8f8cfacb67498b7f88749080a0541e1b3df92f98da3763109a8e"
 
   url "https://github.com/Desert-Ant-Labs/demo-redactor/releases/download/v#{version}/Redactor-#{version}.dmg"
   name "Redactor"
-  desc "Redacts personal data in what you copy, on device"
+  desc "Redacts personal data when you copy or paste, on device"
   homepage "https://github.com/Desert-Ant-Labs/demo-redactor"
 
   livecheck do
