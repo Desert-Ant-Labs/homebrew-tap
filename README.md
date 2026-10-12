@@ -5,6 +5,7 @@ Homebrew casks and formulas for Desert Ant Labs apps and tools.
 ```bash
 brew tap desert-ant-labs/tap
 brew install --cask clipper
+brew install --cask redactor
 brew install desertant
 ```
 
@@ -20,6 +21,7 @@ desert-ant-labs/tap` covers everything here, now and later.
 |---|---|
 | `desertant` | [desertant](https://github.com/Desert-Ant-Labs/desert-ant-cli), the Desert Ant CLI: run the models from the terminal, on macOS and Linux |
 | `clipper` | [Clipper](https://github.com/Desert-Ant-Labs/demo-clipper), which generates short clips from a video podcast, meeting recording, or longer recording, fully on device |
+| `redactor` | [Redactor](https://github.com/Desert-Ant-Labs/demo-redactor), which redacts personal data in what you copy on your Mac, fully on device |
 
 Apple Silicon and macOS 26 or later. The apps are signed and notarized, and the
 disk images come from the releases of the repo each cask names.
