@@ -1,6 +1,6 @@
 cask "redactor" do
-  version "1.0.1"
-  sha256 "fba0883da6ae8f8cfacb67498b7f88749080a0541e1b3df92f98da3763109a8e"
+  version "1.0.2"
+  sha256 "948cd7396d445840c6352a63dfe8a6d91288966ceec9b367e5a408b97fc05119"
 
   url "https://github.com/Desert-Ant-Labs/demo-redactor/releases/download/v#{version}/Redactor-#{version}.dmg"
   name "Redactor"
