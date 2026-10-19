@@ -1,6 +1,6 @@
 cask "desert-ant-flow" do
-  version "0.0.1"
-  sha256 "3338c0ddec1ceb1079764b351f5206c2534f1d328f6f1b795465a19a8e489e3a"
+  version "0.0.2"
+  sha256 "bcaffbd5f5c27a54dec1db3478c4e548fe98377276e29c23040387b6fa8723f3"
 
   url "https://github.com/Desert-Ant-Labs/demo-flow/releases/download/v#{version}/Desert-Ant-Flow-#{version}.dmg"
   name "Desert Ant Flow"
