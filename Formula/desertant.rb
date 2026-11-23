@@ -4,7 +4,7 @@
 class Desertant < Formula
   desc "Runs Desert Ant Labs on-device models from the terminal"
   homepage "https://github.com/Desert-Ant-Labs/desert-ant-cli"
-  version "0.6.0"
+  version "0.7.0"
   license "MIT"
 
   base = "https://github.com/Desert-Ant-Labs/desert-ant-cli/releases/download/v#{version}"
@@ -12,18 +12,18 @@ class Desertant < Formula
   on_macos do
     on_arm do
       url "#{base}/desertant-darwin-arm64.tar.gz"
-      sha256 "6bf901e03dc046157414925965acf7c3a52ab6dae9d376f0c12959cbcc882026"
+      sha256 "d0f569af32a6ead8fef26f2d50eb464901c926563440445e8454542b67abd2f5"
     end
   end
 
   on_linux do
     on_arm do
       url "#{base}/desertant-linux-arm64.tar.gz"
-      sha256 "de7f3a2f79793c8ae418869b2485ea57faa5779e6f34528fc56addb770419b3e"
+      sha256 "c58f2eea4c02f73fa60a49930ee14694599c202261ea910d1feb66345c1aa03b"
     end
     on_intel do
       url "#{base}/desertant-linux-x86_64.tar.gz"
-      sha256 "ae888e5e54992c04afad5d81f6231eb52afada1c1f7cce53c40ca78c2f4102d6"
+      sha256 "3b32b240b022bfce2a6e55477ccd8b2a54ff58edf9bc458ff51a46f0b6599d58"
     end
   end
 
